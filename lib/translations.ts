@@ -43,6 +43,20 @@ export const translations = {
         'Two decades later, Django remains at the heart of modern web development — flexible, secure, and community-driven. This framework has powered thousands of startups, products, and innovations worldwide.',
       bodyTwo:
         "This milestone celebration brings together developers, designers, founders, and community leaders from across Kenya's coast and beyond to honor Django's legacy, explore its local impact, and look ahead to the future of open-source in Africa.",
+      cards: [
+        {
+          title: '20 Years Strong',
+          description: 'Celebrating two decades of innovation and community-driven development.',
+        },
+        {
+          title: 'Global Community',
+          description: 'Connecting local developers with a worldwide network of Django enthusiasts.',
+        },
+        {
+          title: 'Local Innovation',
+          description: "Showcasing how Mombasa's tech ecosystem uses Django for growth.",
+        },
+      ],
     },
     whyMombasa: {
       title: 'Why Mombasa?',
@@ -210,43 +224,48 @@ export const translations = {
       note: 'Detailed schedule and timings will be announced closer to the event.',
     },
     sponsors: {
-      title: 'Sponsorship Opportunities',
+      title: 'Become a Sponsor',
       description:
-        "Partner with us to support the Django community and gain visibility among Kenya's top developers and tech enthusiasts.",
-      tiers: [
+        'Position your brand at the heart of one of the most developer-driven events on the coast.',
+      benefits: [
         {
-          name: 'Platinum Sponsor',
-          price: 'KES 200,000+',
-          benefits: [
-            'Prime logo placement on all materials',
-            '5-minute speaking slot',
-            'Exhibition booth space',
-            '10 complimentary tickets',
-            'Social media recognition',
-          ],
+          title: 'Brand Visibility',
+          description: 'Across all digital campaigns, social media, and tech community channels',
         },
         {
-          name: 'Gold Sponsor',
-          price: 'KES 100,000',
-          benefits: [
-            'Logo on event materials',
-            'Exhibition booth space',
-            '5 complimentary tickets',
-            'Social media mentions',
-          ],
+          title: 'Logo Placement',
+          description: 'On event collateral including posters, T-shirts, banners, and digital backdrops',
         },
         {
-          name: 'Silver Sponsor',
-          price: 'KES 50,000',
-          benefits: [
-            'Logo on website and materials',
-            '3 complimentary tickets',
-            'Social media recognition',
-          ],
+          title: 'Live Mentions',
+          description: 'Recognition during sessions and comprehensive online coverage',
+        },
+        {
+          title: 'Networking Access',
+          description: 'Direct connection with developers, startups, and ecosystem builders',
         },
       ],
-      cta: 'Interested in sponsoring? Contact us to discuss partnership opportunities.',
-      contact: 'Contact Us',
+      supportTitle: 'Your Support Will:',
+      supportBullets: [
+        'Strengthen the Django and Python ecosystem in Mombasa',
+        'Empower developers building impactful digital solutions',
+        'Connect your brand with innovation and opportunity',
+      ],
+      ctaLabel: 'Sponsor This Event',
+      organizedBy: 'Organized by Django & Python Community Mombasa',
+      supportedBy: 'Supported by ChrisDevCode and connected to the Django Software Foundation (DSF) network',
+    },
+    contact: {
+      title: 'Get Involved',
+      description: 'Be part of the story — where community meets code, and innovation meets opportunity.',
+      eventLeadLabel: 'Event Lead',
+      eventLeadName: 'Chris Achinga',
+      emailLabel: 'Email',
+      emailAddress: 'chris@chrisdevcode.com',
+      phoneLabel: 'Phone',
+      phoneNumber: '+254 740 428 522',
+      registerCta: 'Register to Attend',
+      submitTalkCta: 'Submit a Talk Proposal',
     },
     gallery: {
       title: 'Event Gallery',
@@ -289,82 +308,71 @@ export const translations = {
       },
     },
     sponsorshipPage: {
-      title: 'Become a Sponsor',
+      title: 'Partner with Django Day Mombasa',
       subtitle:
-        "Support Django Day Mombasa and connect with Kenya's vibrant tech community. Your sponsorship helps make this celebration possible.",
-      whyTitle: 'Why Sponsor?',
+        'Help us make the event worthwhile for the community. Your sponsorship keeps Django Day Mombasa accessible, impactful, and memorable.',
+      whyTitle: 'Why Support Django Day?',
       brandVisibility: {
         title: 'Brand Visibility',
         description:
-          'Showcase your brand to developers, tech leaders, and decision-makers in the region.',
+          "Stand alongside Kenya's developer community with authentic visibility before, during, and after the event.",
       },
       talentAccess: {
         title: 'Talent Access',
         description:
-          'Connect with skilled developers and potential hires from the Django and Python community.',
+          'Connect with skilled developers, creators, and future hires from the Django and Python ecosystem.',
       },
       communityImpact: {
         title: 'Community Impact',
         description:
-          'Support the growth of the tech ecosystem in Mombasa and contribute to developer education.',
+          'Invest in the coastal tech ecosystem and help us build opportunities for developers across the region.',
       },
-      tiers: {
-        platinum: {
-          name: 'Platinum Sponsor',
-          price: 'KES 200,000+',
+      supportTitle: 'How Your Support Helps',
+      supportAreas: [
+        {
+          name: 'Experience Partner',
+          description: 'Create an unforgettable day for attendees and speakers.',
           benefits: [
-            'Prime logo placement on all event materials',
-            '10-minute speaking slot during the event',
-            'Dedicated booth space for product demos',
-            '10 complimentary tickets',
-            'Social media recognition (pre, during, and post-event)',
-            'Logo on event website homepage',
-            'Opportunity to distribute branded materials',
-            'Recognition in opening and closing remarks',
+            'Cover production essentials like staging, lighting, and audio',
+            'Provide attendee kits, swag, and inclusive hospitality touches',
+            'Elevate the on-site experience with wayfinding and brand moments',
           ],
         },
-        gold: {
-          name: 'Gold Sponsor',
-          price: 'KES 100,000',
+        {
+          name: 'Community Builder',
+          description: 'Keep the event accessible and inclusive for everyone.',
           benefits: [
-            'Logo placement on event materials',
-            '5-minute speaking opportunity',
-            'Booth space for networking',
-            '5 complimentary tickets',
-            'Social media recognition',
-            'Logo on event website',
-            'Recognition during event',
+            'Support community tickets and travel for speakers from across Kenya',
+            'Enable mentorship corners, networking lounges, and wellbeing breaks',
+            'Back accessibility services so every voice can be heard',
           ],
         },
-        silver: {
-          name: 'Silver Sponsor',
-          price: 'KES 50,000',
+        {
+          name: 'Innovation Champion',
+          description: 'Fuel content that inspires action long after the event.',
           benefits: [
-            'Logo on event materials',
-            '3 complimentary tickets',
-            'Social media mention',
-            'Logo on event website',
-            'Recognition during event',
+            'Power workshops, panels, and hands-on learning experiences',
+            'Help us document and share talks with the wider Django ecosystem',
+            'Support post-event resources, recaps, and continued mentorship',
           ],
         },
-        community: {
-          name: 'Community Sponsor',
-          price: 'KES 20,000',
+        {
+          name: 'Visibility Ally',
+          description: 'Amplify the stories and impact of the community.',
           benefits: [
-            'Logo on event website',
-            '2 complimentary tickets',
-            'Social media mention',
-            'Recognition during event',
+            'Boost marketing campaigns across digital and community channels',
+            'Provide design and storytelling resources for partner spotlights',
+            'Champion year-round engagements that keep the momentum going',
           ],
         },
-      },
-      readyTitle: 'Ready to Sponsor?',
+      ],
+      readyTitle: 'Ready to Collaborate?',
       readyDescription:
-        'Get in touch with us to discuss sponsorship opportunities and how we can create a package that works for your organization.',
-      contactBtn: 'Contact Us About Sponsorship',
+        "Reach out and we'll craft a sponsorship experience that aligns with your goals and the community's needs.",
+      contactBtn: 'Contact the Team',
       inKindTitle: 'In-Kind Sponsorship',
       inKindDescription:
-        'We also welcome in-kind sponsorships including:',
+        'We also welcome in-kind contributions such as:',
       inKindItems: [
         'Venue space and facilities',
         'Catering and refreshments',
@@ -374,155 +382,86 @@ export const translations = {
       ],
     },
     speakersPage: {
-      title: 'Call for Speakers',
-      subtitle:
-        'Share your Django expertise and inspire the community at Django Day Mombasa',
-      wantToHearTitle: 'We Want to Hear From You!',
-      wantToHearDescription:
-        "Whether you're a Django veteran or a newcomer with fresh perspectives, we invite you to submit a talk proposal for Django Day Mombasa. This is your opportunity to share knowledge, inspire others, and contribute to the community.",
-      talkFormats: {
-        title: 'Talk Formats',
-        items: [
-          'Full talks (30-40 minutes)',
-          'Lightning talks (5-10 minutes)',
-          'Workshops (60-90 minutes)',
-          'Panel discussions',
-        ],
-      },
-      importantDates: {
-        title: 'Important Dates',
-        items: [
-          'Submissions open: Now',
-          'Deadline: November 15, 2024',
-          'Notifications: November 22, 2024',
-          'Event date: December 5, 2024',
-        ],
-      },
-      suggestedTopicsTitle: 'Suggested Topics',
-      suggestedTopicsDescription:
-        "We're looking for talks on a wide range of Django and Python-related topics, including:",
-      topicsColumn1: [
-        'Django best practices and patterns',
-        'Building APIs with Django REST Framework',
-        'Django performance optimization',
-        'Security in Django applications',
-        'Django and modern frontend frameworks',
-        'Testing strategies for Django apps',
+      title: 'Django Birthday Mombasa — Speaker Application Instructions',
+      subtitle: 'Call for Speakers',
+      introParagraphs: [
+        'We’re inviting speakers from Mombasa and the coastal tech ecosystem to take the stage at Django Birthday Mombasa — an event dedicated to celebrating 20 years of Django and highlighting local talent.',
+        'This edition focuses on giving a platform to upcoming developers, tech enthusiasts, and community builders to showcase their work, ideas, and experiences.',
       ],
-      topicsColumn2: [
-        'Django in production environments',
-        'Database design and ORM tips',
-        'Django for startups and MVPs',
-        'Contributing to Django core',
-        'Django success stories',
-        'The future of Django',
+      guidelinesTitle: 'Speaker Guidelines',
+      guidelines: [
+        {
+          title: '1. Eligibility',
+          bullets: [
+            'Open only to speakers from the local ecosystem (Mombasa, the Coastal region, and across Kenya).',
+            'Designed to spotlight emerging voices — first-time or early-stage speakers are highly encouraged to apply.',
+          ],
+        },
+        {
+          title: '2. Topics',
+          description: 'Talks should explore real problems or creative ideas from the local context. Examples include:',
+          bullets: [
+            'Using Django or Python to solve local or regional challenges.',
+            'Building or scaling startups using open-source tools.',
+            'Leveraging Django for community, education, or civic innovation.',
+            'Lessons learned, success stories, or “fail better” experiences.',
+            'Open source collaboration, contribution, and mentorship journeys.',
+          ],
+          note: 'You’re welcome to interpret “local challenges” broadly — social, economic, educational, or technical.',
+        },
+        {
+          title: '3. Format',
+          bullets: [
+            'Session length: 30–40 minutes (including Q&A).',
+            'No panel discussions. However, interactive or audience-engaging sessions are encouraged.',
+            'Lightning Talks (5 minutes): fun, fast-paced, anything goes — as long as it’s legal and positive. Great for first-time speakers or spontaneous ideas. Limited slots available.',
+          ],
+        },
+        {
+          title: '4. Submission Timeline',
+          bullets: [
+            'Call Opens: November 1, 2024',
+            'Deadline: November 15, 2024',
+            'Notifications: November 20, 2024',
+          ],
+        },
       ],
-      lookingForTitle: "What We're Looking For",
-      practicalValue: {
-        title: 'Practical Value',
-        description:
-          'Talks that provide actionable insights and practical knowledge attendees can apply in their work.',
-      },
-      clearCommunication: {
-        title: 'Clear Communication',
-        description:
-          'Well-structured presentations that are accessible to your target audience level.',
-      },
-      engagingContent: {
-        title: 'Engaging Content',
-        description:
-          "Topics that spark discussion, inspire learning, and contribute to the community's growth.",
-      },
-      speakerBenefitsTitle: 'Speaker Benefits',
-      speakerBenefits: [
-        'Free event admission',
-        'Speaker recognition and promotion on our website and social media',
-        'Opportunity to network with Django community leaders',
-        'Recording of your talk (if you consent)',
-        'Speaker swag and certificate',
+      submissionsTitle: 'Submission Requirements',
+      submissionItems: [
+        'Full Name',
+        'Email & Contact Number',
+        'Talk Title',
+        'Talk Abstract (100–200 words describing your talk)',
+        'Short Bio (tell us who you are and what you do)',
+        'Format (full talk or lightning talk)',
+        'Links (GitHub, LinkedIn, or personal project links if available)',
       ],
-      submitTitle: 'Submit Your Proposal',
-      submitDescription:
-        'Ready to share your knowledge? Submit your talk proposal and join us in celebrating 20 years of Django!',
-      submitBtn: 'Submit Talk Proposal',
-      firstTimeTitle: 'First Time Speaker?',
-      firstTimeDescription:
-        "We strongly encourage first-time speakers to submit proposals! Everyone has unique experiences and perspectives to share. Our team is happy to provide guidance and support to help you craft a great talk. If you have questions or need help with your proposal, don't hesitate to reach out to us. We're here to help you succeed!",
+      reviewTitle: 'Review & Selection',
+      reviewBullets: [
+        'Relevance to Django, Python, or open source.',
+        'Local or community impact.',
+        'Originality and clarity.',
+        'Potential to inspire, educate, or engage the audience.',
+      ],
+      howToApplyTitle: 'How to Apply',
+      howToApplyDescription: 'For now you wait! (Applications open soon — sit tight and craft your idea.)',
+      reminderTitle: 'Quick Reminder',
+      reminderParagraphs: [
+        'This is a community celebration, not a conference. Come ready to share, learn, laugh, and grow together.',
+        'Even if you’ve never spoken before — this is your moment.',
+      ],
+      closingNote: 'Be part of Django’s 20-year legacy — right here in Mombasa.',
     },
     volunteerPage: {
       title: 'Volunteer With Us',
-      subtitle:
-        'Help make Django Day Mombasa an unforgettable experience for everyone',
-      bePartTitle: 'Be Part of Something Special',
-      bePartDescription:
-        'Volunteers are the backbone of Django Day Mombasa. Your time and energy help create an amazing experience for attendees while you gain valuable event experience and make lasting connections in the tech community.',
-      whyVolunteerTitle: 'Why Volunteer?',
-      networkLearn: {
-        title: 'Network & Learn',
-        description:
-          'Connect with speakers, attendees, and fellow volunteers. Get insider access to talks and workshops.',
-      },
-      gainExperience: {
-        title: 'Gain Experience',
-        description:
-          'Develop event management skills and add meaningful volunteer experience to your resume.',
-      },
-      giveBack: {
-        title: 'Give Back',
-        description:
-          'Support the Django and Python community while helping create an inclusive, welcoming event.',
-      },
-      exclusivePerks: {
-        title: 'Exclusive Perks',
-        description:
-          'Receive volunteer swag, free meals, and a certificate of appreciation for your contribution.',
-      },
-      rolesTitle: 'Volunteer Roles',
-      roles: [
-        {
-          title: 'Registration & Check-in',
-          description:
-            'Welcome attendees, manage registration desk, and distribute event materials.',
-        },
-        {
-          title: 'Session Support',
-          description:
-            'Assist speakers with setup, manage Q&A sessions, and ensure smooth transitions.',
-        },
-        {
-          title: 'Logistics & Setup',
-          description:
-            'Help with venue setup, signage, and ensuring everything runs smoothly.',
-        },
-        {
-          title: 'Community Engagement',
-          description:
-            'Help attendees network, answer questions, and create a welcoming atmosphere.',
-        },
-      ],
-      whatToExpectTitle: 'What to Expect',
-      whatToExpect: [
-        'Time Commitment: Most volunteer shifts are 3-4 hours. You can choose morning or afternoon shifts.',
-        "Pre-Event Briefing: We'll provide training and orientation before the event so you feel prepared.",
-        "Team Support: You'll work alongside other volunteers and have a team lead to guide you.",
-        "Flexibility: We'll work with your schedule and preferences to find the right role for you.",
-      ],
-      benefitsTitle: 'Volunteer Benefits',
-      benefits: [
-        'Free event admission and access to all sessions',
-        'Exclusive volunteer t-shirt and swag',
-        'Complimentary meals and refreshments during your shift',
-        'Certificate of volunteer service',
-        'Invitation to volunteer appreciation gathering',
-        'Networking opportunities with speakers and organizers',
-      ],
-      readyTitle: 'Ready to Volunteer?',
-      readyDescription:
-        'Join our volunteer team and help create an amazing Django Day celebration! Spaces are limited, so sign up early.',
-      signUpBtn: 'Sign Up to Volunteer',
-      questionsTitle: 'Questions?',
-      questionsDescription:
-        "Have questions about volunteering? Want to know more about specific roles or time commitments? We're here to help! Contact our volunteer coordinator and we'll get back to you with all the information you need.",
+      subtitle: 'Support us to make this happen — your time and skills mean the world to us.',
+      description:
+        'Every hand makes the birthday brighter. Whether you love logistics, people, or just showing up with good vibes, we’d love to have you onboard.',
+      supportMessage:
+        'Support us to make this happen. Your time is highly valuable to us, and so are your skills.',
+      ctaLabel: 'Reach out to Chris to volunteer',
+      ctaLink: 'mailto:chris@chrisdevcode.com?subject=Volunteer%20-%20Django%20Birthday%20Mombasa',
+      ctaEmail: 'chris@chrisdevcode.com',
     },
     registrationPage: {
       title: 'Register for Django Day Mombasa',
@@ -546,116 +485,98 @@ export const translations = {
             'Connect with developers, companies, and community leaders.',
         },
       ],
-      passesTitle: 'Ticket Options',
+      passesTitle: 'Why RSVP?',
       passes: [
         {
-          name: 'Early Bird Pass',
-          price: 'KES 2,500',
+          name: 'Value for Attending',
           description:
-            'Limited availability. Includes full-day access and swag bag.',
+            'Definitely eat cake. Hear people sing happy birthday. It’s basically a Django birthday party with laptops.',
         },
         {
-          name: 'Regular Pass',
-          price: 'KES 3,500',
+          name: 'Registration Cost',
           description:
-            'Standard access to all sessions, meals, and networking events.',
+            'Zero shillings. Registration is free — just RSVP if you are 100% sure you’ll show up. The cake can’t eat itself.',
         },
         {
-          name: 'Student Pass',
-          price: 'KES 1,500',
-          description: 'Discounted rate for students with valid ID.',
+          name: 'Lock Your Spot',
+          description:
+            'Email us to RSVP your seat: chris@chrisdevcode.com (for now, until we figure out how APIs work).',
         },
       ],
       stepsTitle: 'How Registration Works',
       steps: [
-        'Choose the ticket type that fits you best.',
-        'Complete the registration form with your details.',
-        'Receive your confirmation email with event updates.',
+        'Send us a cheerful RSVP email. Tell us you’re coming and maybe your preferred cake vibe.',
+        'Wait for a friendly confirmation that your name is on the list (and the cake count).',
+        'Show up hungry, ready to learn, and prepared to sing “Happy Birthday” like you mean it.',
       ],
-      whatsIncludedTitle: 'Every Ticket Includes',
+      whatsIncludedTitle: 'Every RSVP Includes',
       whatsIncluded: [
-        'Access to all talks, workshops, and panels.',
-        'Morning coffee, lunch, and afternoon refreshments.',
-        'Exclusive Django Day Mombasa swag.',
-        'Networking lounge and post-event community meetup.',
+        'Full access to all talks, workshops, and panels.',
+        'Cake. A really good one.',
+        'Meet cool Django people and Python nerds.',
       ],
-      ctaTitle: 'Ready to Join Us?',
+      ctaTitle: 'Ready to Claim Your Slice?',
       ctaDescription:
-        'Send us your details and our team will follow up with payment instructions.',
-      ctaBtn: 'Email Registration Team',
-      ctaLink:
-        'mailto:registration@djangoday.mombasa?subject=Django%20Day%20Mombasa%20Registration',
+        'Fire off an RSVP email to secure your spot. Bring your energy, your curiosity, and your best birthday choir voice.',
+      ctaBtn: 'RSVP via Email',
+      ctaLink: 'mailto:chris@chrisdevcode.com?subject=RSVP%20-%20Django%20Day%20Mombasa',
       supportTitle: 'Need Help?',
       supportDescription:
-        "For group bookings or questions, email us and we'll get you sorted.",
-      supportEmail: 'registration@djangoday.mombasa',
+        'Questions, groups, or dietary intel? Email Chris and we’ll figure it out — probably with cake in hand.',
+      supportEmail: 'chris@chrisdevcode.com',
     },
     codeOfConductPage: {
       title: 'Code of Conduct',
-      subtitle:
-        'Creating a safe, inclusive, and welcoming environment for everyone',
-      commitmentTitle: 'Our Commitment',
-      commitmentDescription:
-        'Django Day Mombasa is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.',
-      expectedTitle: 'Expected Behavior',
-      expectedBehaviors: [
-        'Be respectful and considerate in your speech and actions',
-        'Refrain from demeaning, discriminatory, or harassing behavior and speech',
-        'Be mindful of your surroundings and fellow participants',
-        'Alert event organizers if you notice a dangerous situation or someone in distress',
-        'Respect the boundaries and personal space of others',
-        'Participate in an authentic and active way to contribute to the community',
+      subtitle: 'We uphold the Django Code of Conduct to keep this celebration safe, inclusive, and kind.',
+      referenceNote:
+        'Our guidelines build on the official Django Code of Conduct. Read the full version for additional context:',
+      referenceLinkLabel: 'https://www.djangoproject.com/conduct/',
+      referenceLinkHref: 'https://www.djangoproject.com/conduct/',
+      introParagraphs: [
+        'Like the wider Django community, our gathering welcomes people from many backgrounds—professionals and volunteers alike—who mentor, teach, and connect around code and community.',
+        'Diversity is our strength, and it asks each of us to communicate with patience and empathy. These guidelines exist to help us enrich one another and ensure everyone feels welcome.',
+        'This code applies to every Django Birthday Mombasa space—onsite, online, and anywhere the event community gathers. Conduct outside official spaces can still affect participation.',
       ],
-      unacceptableTitle: 'Unacceptable Behavior',
-      unacceptableDescription:
-        'The following behaviors are considered harassment and are unacceptable:',
-      unacceptableBehaviors: [
-        'Violence, threats of violence, or violent language directed against another person',
-        'Sexist, racist, homophobic, transphobic, ableist, or otherwise discriminatory jokes',
-        'Posting or displaying sexually explicit or violent material',
-        'Personal insults, particularly those related to protected characteristics',
-        'Inappropriate photography or recording without consent',
-        'Unwelcome sexual attention or advances',
-        'Deliberate intimidation, stalking, or following',
-        'Sustained disruption of talks or other events',
-        'Advocating for or encouraging any of the above behavior',
+      principlesTitle: 'What We Expect',
+      principles: [
+        {
+          title: 'Be friendly and patient.',
+          description:
+            'Remember there are people at different stages of their journey. Offer help generously and assume good intent.',
+        },
+        {
+          title: 'Be welcoming.',
+          description:
+            'Support people of every background, identity, and lived experience. Make your interactions inviting and accessible.',
+        },
+        {
+          title: 'Be considerate.',
+          description:
+            'Your work and words affect others. Think about consequences, be mindful of time zones and languages, and collaborate with care.',
+        },
+        {
+          title: 'Be respectful.',
+          description:
+            'Disagreements happen; personal attacks do not. Keep discussions professional, even when you are frustrated.',
+        },
+        {
+          title: 'Use kind words.',
+          description:
+            'Harassment, exclusionary jokes, doxing, violent or sexual imagery, or repeated unwanted contact have no place here.',
+        },
+        {
+          title: 'When we disagree, seek understanding.',
+          description:
+            'Different perspectives make Django stronger. Focus on resolving issues and learning—not blaming or shaming.',
+        },
       ],
-      scopeTitle: 'Scope',
-      scopeDescription:
-        'This Code of Conduct applies to all Django Day Mombasa spaces, including:',
-      scopeItems: [
-        'The event venue and all event-related activities',
-        'Online event platforms and communication channels',
-        'Social media interactions related to the event',
-        'Event-related social gatherings and after-parties',
-      ],
-      consequencesTitle:
-        'Consequences of Unacceptable Behavior',
-      consequencesDescription:
-        'Unacceptable behavior will not be tolerated. Anyone asked to stop unacceptable behavior is expected to comply immediately. If a participant engages in unacceptable behavior, the event organizers may take any action they deem appropriate, including:',
-      consequencesItems: [
-        'Warning the offender',
-        'Expulsion from the event without refund',
-        'Banning from future events',
-        'Reporting to law enforcement if appropriate',
-      ],
-      reportingTitle: 'Reporting Guidelines',
+      reportingTitle: 'Need to Report Something?',
       reportingDescription:
-        'If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an event organizer as soon as possible.',
-      reportingDuring:
-        "During the event: Look for staff wearing 'Organizer' badges or visit the registration desk",
-      reportingEmail:
-        'Email: conduct@djangoday.mombasa (monitored before, during, and after the event)',
-      reportingEmergency:
-        'Emergency: Contact local authorities at 999 or 112',
+        'If you witness or experience behavior that violates this code, please reach out as soon as possible. Reports are handled discreetly.',
+      reportingEmailLabel: 'Email the organizers:',
+      reportingEmail: 'chris@chrisdevcode.com',
       reportingNote:
-        'All reports will be handled with discretion and confidentiality. We will take all reports seriously and investigate promptly.',
-      grievancesTitle: 'Addressing Grievances',
-      grievancesDescription:
-        'If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify the event organizers with a concise description of your grievance. Your grievance will be handled in accordance with our existing policies.',
-      licenseTitle: 'License and Attribution',
-      licenseDescription:
-        'This Code of Conduct is adapted from the Django Code of Conduct and the Citizen Code of Conduct, distributed under a Creative Commons Attribution-ShareAlike license. We are grateful to the Django Software Foundation and other communities for their work in creating inclusive event spaces.',
+        'If anyone is in immediate danger, contact local emergency services first. Thank you for helping us keep this event welcoming for everyone.',
     },
   },
   sw: {
@@ -704,6 +625,20 @@ export const translations = {
         'Miongo miwili baadaye, Django bado ni kiini cha maendeleo ya kisasa ya wavuti — yenye kubadilika, salama, na inayoendeshwa na jumuiya. Mfumo huu umewezesha maelfu ya biashara anzilishi, bidhaa, na ubunifu duniani kote.',
       bodyTwo:
         'Sherehe hii ya kumbukumbu inawaleta pamoja wasanidi programu, wabunifu, waanzilishi, na viongozi wa jumuiya kutoka pwani ya Kenya na kwingineko ili kuenzi urithi wa Django, kuchunguza athari zake za ndani, na kutazama mustakabali wa chanzo huria barani Afrika.',
+      cards: [
+        {
+          title: 'Miaka 20 Imara',
+          description: 'Kusherehekea miongo miwili ya ubunifu na maendeleo yanayoongozwa na jamii.',
+        },
+        {
+          title: 'Jumuiya ya Ulimwengu',
+          description: 'Kuunganisha wasanidi wa hapa na mtandao wa wapenzi wa Django duniani kote.',
+        },
+        {
+          title: 'Ubunifu wa Ndani',
+          description: 'Kuonyesha jinsi mfumo wa teknolojia wa Mombasa unavyotumia Django kukua.',
+        },
+      ],
     },
     whyMombasa: {
       title: 'Kwa Nini Mombasa?',
@@ -885,43 +820,51 @@ export const translations = {
       note: 'Ratiba ya kina na muda utatangazwa tunapokaribia tukio.',
     },
     sponsors: {
-      title: 'Fursa za Ufadhili',
+      title: 'Kuwa Mfadhili',
       description:
-        'Shirikiana nasi kusaidia jumuiya ya Django na kupata mwonekano kati ya wasanidi programu bora wa Kenya na wapenzi wa teknolojia.',
-      tiers: [
+        'Weka chapa yako katikati ya tukio linaloongozwa na wasanidi wa pwani.',
+      benefits: [
         {
-          name: 'Mfadhili wa Platinum',
-          price: 'KES 200,000+',
-          benefits: [
-            'Uwekaji wa nembo ya kwanza kwenye nyenzo zote',
-            'Nafasi ya kuzungumza ya dakika 5',
-            'Nafasi ya kibanda cha maonyesho',
-            'Tiketi 10 za bure',
-            'Utambuzi wa mitandao ya kijamii',
-          ],
+          title: 'Mwonekano wa Chapa',
+          description:
+            'Kupitia kampeni zote za kidijitali, mitandao ya kijamii na njia za jumuiya ya teknolojia',
         },
         {
-          name: 'Mfadhili wa Dhahabu',
-          price: 'KES 100,000',
-          benefits: [
-            'Nembo kwenye nyenzo za tukio',
-            'Nafasi ya kibanda cha maonyesho',
-            'Tiketi 5 za bure',
-            'Matajwa kwenye mitandao ya kijamii',
-          ],
+          title: 'Uwekaji wa Nembo',
+          description:
+            'Kwenye nyenzo za tukio kama mabango, fulana, mabega ya jukwaa na mandhari za kidijitali',
         },
         {
-          name: 'Mfadhili wa Fedha',
-          price: 'KES 50,000',
-          benefits: [
-            'Nembo kwenye tovuti na nyenzo',
-            'Tiketi 3 za bure',
-            'Utambuzi wa mitandao ya kijamii',
-          ],
+          title: 'Matamko ya Moja kwa Moja',
+          description: 'Kutajwa wakati wa vipindi na ufuatiliaji kamili wa mtandaoni',
+        },
+        {
+          title: 'Ufikiaji wa Mtandao',
+          description:
+            'Muunganiko wa moja kwa moja na wasanidi, startups na waendelezaji wa mfumo wa ikolojia',
         },
       ],
-      cta: 'Una nia ya kufadhili? Wasiliana nasi kujadili fursa za ushirikiano.',
-      contact: 'Wasiliana Nasi',
+      supportTitle: 'Mchango Wako Utafanikisha:',
+      supportBullets: [
+        'Kuimarisha mfumo wa Django na Python katika Mombasa',
+        'Kuwawezesha wasanidi wanaounda suluhu zenye athari',
+        'Kuunganisha chapa yako na ubunifu na fursa',
+      ],
+      ctaLabel: 'Dhamini Tukio Hili',
+      organizedBy: 'Imeandaliwa na Jumuiya ya Django & Python Mombasa',
+      supportedBy: 'Inasaidiwa na ChrisDevCode na kuunganishwa na mtandao wa Django Software Foundation (DSF)',
+    },
+    contact: {
+      title: 'Ungana Nasi',
+      description: 'Kuwa sehemu ya simulizi — mahali jamii inakutana na msimbo na ubunifu kukutana na fursa.',
+      eventLeadLabel: 'Mratibu wa Tukio',
+      eventLeadName: 'Chris Achinga',
+      emailLabel: 'Barua pepe',
+      emailAddress: 'chris@chrisdevcode.com',
+      phoneLabel: 'Simu',
+      phoneNumber: '+254 740 428 522',
+      registerCta: 'Jisajili Kuhudhuria',
+      submitTalkCta: 'Tuma Pendekezo la Hotuba',
     },
     gallery: {
       title: 'Mkusanyiko wa Picha',
@@ -964,240 +907,160 @@ export const translations = {
       },
     },
     sponsorshipPage: {
-      title: 'Kuwa Mfadhili',
+      title: 'Shirikiana na Django Day Mombasa',
       subtitle:
-        'Saidia Siku ya Django Mombasa na uunganishe na jumuiya yenye nguvu ya teknolojia ya Kenya. Ufadhili wako unasaidia kufanya sherehe hii iwezekane.',
-      whyTitle: 'Kwa Nini Kufadhili?',
+        'Tusaidie kufanya tukio hili liwe la maana kwa jamii. Ufadhili wako huifanya Django Day Mombasa ibaki kupatikana, yenye athari na ya kukumbukwa.',
+      whyTitle: 'Kwa Nini Utuunge Mkono?',
       brandVisibility: {
         title: 'Mwonekano wa Chapa',
         description:
-          'Onyesha chapa yako kwa wasanidi programu, viongozi wa teknolojia, na wafanya maamuzi katika mkoa.',
+          'Weka chapa yako bega kwa bega na jamii ya wasanidi wa Kenya kabla, wakati na baada ya tukio.',
       },
       talentAccess: {
         title: 'Upatikanaji wa Vipaji',
         description:
-          'Unganisha na wasanidi programu wenye ujuzi na waajiri watarajiwa kutoka jumuiya ya Django na Python.',
+          'Ungana na wasanidi mahiri, wabunifu na vipaji vipya kutoka mfumo wa Django na Python.',
       },
       communityImpact: {
-        title: 'Athari kwa Jumuiya',
+        title: 'Athari kwa Jamii',
         description:
-          'Saidia ukuaji wa mfumo wa ikolojia wa teknolojia huko Mombasa na uchangie elimu ya wasanidi programu.',
+          'Wekeza katika mfumo wa teknolojia wa Pwani na tusaidie kujenga fursa kwa wasanidi kote nchini.',
       },
-      tiers: {
-        platinum: {
-          name: 'Mfadhili wa Platinum',
-          price: 'KES 200,000+',
+      supportTitle: 'Mchango Wako Unasaidiaje',
+      supportAreas: [
+        {
+          name: 'Mshirika wa Uzoefu',
+          description: 'Unda siku isiyosahaulika kwa washiriki na wazungumzaji.',
           benefits: [
-            'Uwekaji wa nembo ya kwanza kwenye nyenzo zote za tukio',
-            'Nafasi ya kuzungumza ya dakika 10 wakati wa tukio',
-            'Nafasi ya kibanda maalum kwa maonyesho ya bidhaa',
-            'Tiketi 10 za bure',
-            'Utambuzi wa mitandao ya kijamii (kabla, wakati, na baada ya tukio)',
-            'Nembo kwenye ukurasa wa nyumbani wa tovuti ya tukio',
-            'Fursa ya kusambaza nyenzo zenye chapa',
-            'Utambuzi katika hotuba za ufunguzi na kufunga',
+            'Kufadhili mahitaji ya uzalishaji kama jukwaa, taa na sauti',
+            'Kuwezesha vifurushi vya wageni, zawadi na huduma jumuishi',
+            'Kuboresha uzoefu wa eneo la tukio kupitia alama na matukio ya chapa',
           ],
         },
-        gold: {
-          name: 'Mfadhili wa Dhahabu',
-          price: 'KES 100,000',
+        {
+          name: 'Mjengaji Jamii',
+          description: 'Hakikisha tukio linasalia wazi na shirikishi kwa kila mtu.',
           benefits: [
-            'Uwekaji wa nembo kwenye nyenzo za tukio',
-            'Fursa ya kuzungumza ya dakika 5',
-            'Nafasi ya kibanda kwa kuunganisha',
-            'Tiketi 5 za bure',
-            'Utambuzi wa mitandao ya kijamii',
-            'Nembo kwenye tovuti ya tukio',
-            'Utambuzi wakati wa tukio',
+            'Kusaidia tiketi za jamii na usafiri wa wazungumzaji kutoka maeneo mbalimbali ya Kenya',
+            'Kuwezesha maeneo ya ushauri, sehemu za kuunganika na mapumziko ya ustawi',
+            'Kufadhili huduma za upatikanaji ili kila mmoja ashiriki ipasavyo',
           ],
         },
-        silver: {
-          name: 'Mfadhili wa Fedha',
-          price: 'KES 50,000',
+        {
+          name: 'Bingwa wa Ubunifu',
+          description: 'Chochea maudhui yanayoleta msukumo hata baada ya tukio.',
           benefits: [
-            'Nembo kwenye nyenzo za tukio',
-            'Tiketi 3 za bure',
-            'Kutajwa kwenye mitandao ya kijamii',
-            'Nembo kwenye tovuti ya tukio',
-            'Utambuzi wakati wa tukio',
+            'Kuwezesha warsha, midahalo na vipindi vya mafunzo kwa vitendo',
+            'Kusaidia kutengeneza na kushirikisha rekodi za hotuba kwa jamii pana ya Django',
+            'Kufadhili rasilimali za baada ya tukio, muhtasari na ushauri unaoendelea',
           ],
         },
-        community: {
-          name: 'Mfadhili wa Jumuiya',
-          price: 'KES 20,000',
+        {
+          name: 'Mshirika wa Umaarufu',
+          description: 'Kuimarisha hadithi na athari za jamii.',
           benefits: [
-            'Nembo kwenye tovuti ya tukio',
-            'Tiketi 2 za bure',
-            'Kutajwa kwenye mitandao ya kijamii',
-            'Utambuzi wakati wa tukio',
+            'Kuimarisha kampeni za uhamasishaji katika mitandao ya kidijitali na ya kijamii',
+            'Kutoa rasilimali za ubunifu na maudhui kwa ajili ya kuangazia washirika',
+            'Kukuza ushirikiano wa mwaka mzima unaodumisha kasi ya jamii',
           ],
         },
-      },
-      readyTitle: 'Uko Tayari Kufadhili?',
+      ],
+      readyTitle: 'Tayari Kushirikiana?',
       readyDescription:
-        'Wasiliana nasi kujadili fursa za ufadhili na jinsi tunavyoweza kuunda kifurushi kinachofaa shirika lako.',
-      contactBtn: 'Wasiliana Nasi Kuhusu Ufadhili',
+        'Wasiliana nasi tuunde pamoja ushirikiano unaolingana na malengo yako na mahitaji ya jamii.',
+      contactBtn: 'Wasiliana na Timu',
       inKindTitle: 'Ufadhili wa Aina',
       inKindDescription:
-        'Tunakaribisha pia ufadhili wa aina ikijumuisha:',
+        'Tunakaribisha pia michango ya vifaa na huduma kama:',
       inKindItems: [
         'Nafasi ya mahali na vifaa',
         'Huduma za chakula na viburudisho',
         'Vifaa vya sauti na kuona',
-        'Bidhaa za utangazaji zenye chapa',
+        'Bidhaa za matangazo zenye chapa',
         'Uandishi wa habari na utangazaji',
       ],
     },
     speakersPage: {
-      title: 'Wito kwa Wasemaji',
-      subtitle:
-        'Shiriki ujuzi wako wa Django na uhamasishe jumuiya katika Siku ya Django Mombasa',
-      wantToHearTitle: 'Tunataka Kusikia Kutoka Kwako!',
-      wantToHearDescription:
-        'Iwe wewe ni mtaalamu wa Django au mtu mpya mwenye mitazamo mpya, tunakualika uwasilishe pendekezo la mazungumzo kwa Siku ya Django Mombasa. Hii ni fursa yako ya kushiriki maarifa, kuhamasisha wengine, na kuchangia jumuiya.',
-      talkFormats: {
-        title: 'Miundo ya Mazungumzo',
-        items: [
-          'Mazungumzo kamili (dakika 30-40)',
-          'Mazungumzo ya haraka (dakika 5-10)',
-          'Warsha (dakika 60-90)',
-          'Mijadala ya jopo',
-        ],
-      },
-      importantDates: {
-        title: 'Tarehe Muhimu',
-        items: [
-          'Mawasilisho yanafunguliwa: Sasa',
-          'Tarehe ya mwisho: Novemba 15, 2024',
-          'Arifa: Novemba 22, 2024',
-          'Tarehe ya tukio: Desemba 5, 2024',
-        ],
-      },
-      suggestedTopicsTitle: 'Mada Zilizopendekezwa',
-      suggestedTopicsDescription:
-        'Tunatafuta mazungumzo kuhusu mada mbalimbali zinazohusiana na Django na Python, ikijumuisha:',
-      topicsColumn1: [
-        'Mazoea bora na mifumo ya Django',
-        'Kujenga API kwa Django REST Framework',
-        'Uboreshaji wa utendaji wa Django',
-        'Usalama katika programu za Django',
-        'Django na mifumo ya kisasa ya frontend',
-        'Mikakati ya majaribio kwa programu za Django',
+      title: 'Django Birthday Mombasa — Maelekezo ya Maombi ya Wasemaji',
+      subtitle: 'Mwito kwa Wasemaji',
+      introParagraphs: [
+        'Tunawaalika wasemaji kutoka Mombasa na mfumo wa teknolojia wa Pwani kupanda jukwaani katika Django Birthday Mombasa — tukio la kusherehekea miaka 20 ya Django na kuangazia vipaji vya hapa nyumbani.',
+        'Toleo hili linatoa jukwaa kwa wasanidi wanaoibuka, wapenda teknolojia, na wajenzi wa jumuiya kuonyesha kazi zao, mawazo, na uzoefu.',
       ],
-      topicsColumn2: [
-        'Django katika mazingira ya uzalishaji',
-        'Muundo wa hifadhidata na vidokezo vya ORM',
-        'Django kwa biashara ndogo na MVP',
-        'Kuchangia kwenye kiini cha Django',
-        'Hadithi za mafanikio ya Django',
-        'Mustakabali wa Django',
+      guidelinesTitle: 'Mwongozo wa Wasemaji',
+      guidelines: [
+        {
+          title: '1. Ustahiki',
+          bullets: [
+            'Imefunguliwa kwa wasemaji kutoka mfumo wa eneo (Mombasa, ukanda wa Pwani, na kote Kenya).',
+            'Imetengenezwa kung\'aza sauti zinazoibuka — wasemaji wa mara ya kwanza au wanaoanza wanahimizwa sana kuomba.',
+          ],
+        },
+        {
+          title: '2. Mada',
+          description: 'Mazungumzo yanapaswa kuchunguza changamoto halisi au mawazo bunifu ya eneo. Mifano ni pamoja na:',
+          bullets: [
+            'Kutumia Django au Python kutatua changamoto za eneo au kanda.',
+            'Kujenga au kukuza biashara anzilishi kwa kutumia zana za chanzo huria.',
+            'Kutumia Django kwa jamii, elimu, au ubunifu wa kijamii.',
+            'Masomo muhimu, hadithi za mafanikio, au uzoefu wa “kushindwa vizuri”.',
+            'Safari za kushirikiana katika chanzo huria, kuchangia, na ushauri wa jamii.',
+          ],
+          note: 'Unakaribishwa kufasiri “changamoto za eneo” kwa upana — kijamii, kiuchumi, kielimu, au kiteknolojia.',
+        },
+        {
+          title: '3. Muundo',
+          bullets: [
+            'Muda wa kipindi: dakika 30–40 (pamoja na maswali na majibu).',
+            'Hakuna mijadala ya paneli. Hata hivyo, vipindi shirikishi vinakaribishwa.',
+            'Lightning Talks (dakika 5): vya kufurahisha na vya haraka — mradi tu ni halali na chanya. Inafaa kwa wasemaji wa mara ya kwanza au mawazo ya papo kwa papo. Nafasi ni chache.',
+          ],
+        },
+        {
+          title: '4. Ratiba ya Uwasilishaji',
+          bullets: [
+            'Mwito Una Funguliwa: 1 Novemba 2024',
+            'Mwisho wa Kutuma: 15 Novemba 2024',
+            'Taarifa: 20 Novemba 2024',
+          ],
+        },
       ],
-      lookingForTitle: 'Tunachotafuta',
-      practicalValue: {
-        title: 'Thamani ya Vitendo',
-        description:
-          'Mazungumzo yanayotoa maarifa ya vitendo na maarifa ya vitendo ambayo wahudhuria wanaweza kutumia katika kazi zao.',
-      },
-      clearCommunication: {
-        title: 'Mawasiliano Wazi',
-        description:
-          'Mawasilisho yaliyopangwa vizuri ambayo yanaweza kufikiwa na kiwango cha hadhira yako lengwa.',
-      },
-      engagingContent: {
-        title: 'Maudhui Yenye Kuvutia',
-        description:
-          'Mada zinazochochea mjadala, kuhamasisha kujifunza, na kuchangia ukuaji wa jumuiya.',
-      },
-      speakerBenefitsTitle: 'Faida za Msemaji',
-      speakerBenefits: [
-        'Kuingia bure kwa tukio',
-        'Utambuzi wa msemaji na utangazaji kwenye tovuti yetu na mitandao ya kijamii',
-        'Fursa ya kuunganisha na viongozi wa jumuiya ya Django',
-        'Kurekodi mazungumzo yako (ukikubali)',
-        'Bidhaa za msemaji na cheti',
+      submissionsTitle: 'Mahitaji ya Maombi',
+      submissionItems: [
+        'Jina Kamili',
+        'Barua pepe na Namba ya Mawasiliano',
+        'Kichwa cha Hotuba',
+        'Muhtasari wa Hotuba (maneno 100–200 yanayoelezea hotuba yako)',
+        'Maelezo Mafupi Kukuhusu (una kufanya nini)',
+        'Muundo (hotuba kamili au lightning talk)',
+        'Viungo (GitHub, LinkedIn, au viungo vya miradi binafsi ikiwa vinapatikana)',
       ],
-      submitTitle: 'Wasilisha Pendekezo Lako',
-      submitDescription:
-        'Uko tayari kushiriki maarifa yako? Wasilisha pendekezo lako la mazungumzo na ujiunge nasi katika kusherehekea miaka 20 ya Django!',
-      submitBtn: 'Wasilisha Pendekezo la Mazungumzo',
-      firstTimeTitle: 'Msemaji wa Mara ya Kwanza?',
-      firstTimeDescription:
-        'Tunahamasisha sana wasemaji wa mara ya kwanza kuwasilisha mapendekezo! Kila mtu ana uzoefu na mitazamo ya kipekee ya kushiriki. Timu yetu iko tayari kutoa mwongozo na msaada kukusaidia kuunda mazungumzo mazuri. Ikiwa una maswali au unahitaji msaada na pendekezo lako, usisite kuwasiliana nasi. Tuko hapa kukusaidia kufanikiwa!',
+      reviewTitle: 'Mapitio na Uchaguzi',
+      reviewBullets: [
+        'Uhusiano na Django, Python, au chanzo huria.',
+        'Athari kwa eneo au jamii.',
+        'Ubunifu na uwazi.',
+        'Uwezo wa kuhamasisha, kuelimisha, au kushirikisha hadhira.',
+      ],
+      howToApplyTitle: 'Jinsi ya Kuomba',
+      howToApplyDescription: 'Kwa sasa, subiri tu! (Fomu itafunguliwa hivi karibuni — endelea kusuka wazo lako.)',
+      reminderTitle: 'Kumbusho la Haraka',
+      reminderParagraphs: [
+        'Hii ni sherehe ya jumuiya, si mkutano rasmi. Kuja tayari kushiriki, kujifunza, kucheka, na kukua pamoja.',
+        'Hata kama hujawahi kuzungumza mbele ya hadhira — huu ndio wakati wako.',
+      ],
+      closingNote: 'Kuwa sehemu ya urithi wa miaka 20 ya Django — hapa hapa Mombasa.',
     },
     volunteerPage: {
       title: 'Jitolee Nasi',
-      subtitle:
-        'Saidia kufanya Siku ya Django Mombasa kuwa uzoefu usioweza kusahaulika kwa kila mtu',
-      bePartTitle: 'Kuwa Sehemu ya Kitu Maalum',
-      bePartDescription:
-        'Wajitoleaji ni uti wa mgongo wa Siku ya Django Mombasa. Muda na nguvu zako zinasaidia kuunda uzoefu wa ajabu kwa wahudhuria wakati wewe unapata uzoefu muhimu wa tukio na kufanya uhusiano wa kudumu katika jumuiya ya teknolojia.',
-      whyVolunteerTitle: 'Kwa Nini Kujitolea?',
-      networkLearn: {
-        title: 'Unganisha na Jifunze',
-        description:
-          'Unganisha na wasemaji, wahudhuria, na wajitoleaji wenzako. Pata ufikiaji wa ndani kwa mazungumzo na warsha.',
-      },
-      gainExperience: {
-        title: 'Pata Uzoefu',
-        description:
-          'Endeleza ujuzi wa usimamizi wa matukio na uongeze uzoefu muhimu wa kujitolea kwenye wasifu wako.',
-      },
-      giveBack: {
-        title: 'Rudisha',
-        description:
-          'Saidia jumuiya ya Django na Python wakati unasaidia kuunda tukio la kujumuisha na kukaribisha.',
-      },
-      exclusivePerks: {
-        title: 'Faida za Kipekee',
-        description:
-          'Pokea bidhaa za wajitoleaji, chakula cha bure, na cheti cha shukrani kwa mchango wako.',
-      },
-      rolesTitle: 'Majukumu ya Wajitoleaji',
-      roles: [
-        {
-          title: 'Usajili na Kuingia',
-          description:
-            'Karibisha wahudhuria, simamia dawati la usajili, na sambaza nyenzo za tukio.',
-        },
-        {
-          title: 'Msaada wa Vikao',
-          description:
-            'Saidia wasemaji na usanidi, simamia vikao vya maswali na majibu, na uhakikishe mpito laini.',
-        },
-        {
-          title: 'Usanidi na Usanidi',
-          description:
-            'Saidia na usanidi wa mahali, alama, na kuhakikisha kila kitu kinakwenda vizuri.',
-        },
-        {
-          title: 'Ushiriki wa Jumuiya',
-          description:
-            'Saidia wahudhuria kuunganisha, jibu maswali, na uunde hali ya kukaribisha.',
-        },
-      ],
-      whatToExpectTitle: 'Nini Kutarajia',
-      whatToExpect: [
-        'Kujitolea kwa Muda: Zamu nyingi za wajitoleaji ni saa 3-4. Unaweza kuchagua zamu za asubuhi au mchana.',
-        'Mkutano wa Kabla ya Tukio: Tutakupa mafunzo na mwelekeo kabla ya tukio ili ujisikie tayari.',
-        'Msaada wa Timu: Utafanya kazi pamoja na wajitoleaji wengine na kuwa na kiongozi wa timu kukuongoza.',
-        'Kubadilika: Tutafanya kazi na ratiba yako na mapendeleo yako kupata jukumu sahihi kwako.',
-      ],
-      benefitsTitle: 'Faida za Wajitoleaji',
-      benefits: [
-        'Kuingia bure kwa tukio na ufikiaji wa vikao vyote',
-        'Shati la kipekee la wajitoleaji na bidhaa',
-        'Chakula cha bure na viburudisho wakati wa zamu yako',
-        'Cheti cha huduma ya kujitolea',
-        'Mwaliko wa mkutano wa shukrani kwa wajitoleaji',
-        'Fursa za kuunganisha na wasemaji na waandaaji',
-      ],
-      readyTitle: 'Uko Tayari Kujitolea?',
-      readyDescription:
-        'Jiunge na timu yetu ya wajitoleaji na usaidie kuunda sherehe ya ajabu ya Siku ya Django! Nafasi ni chache, kwa hivyo jisajili mapema.',
-      signUpBtn: 'Jisajili Kujitolea',
-      questionsTitle: 'Maswali?',
-      questionsDescription:
-        'Una maswali kuhusu kujitolea? Unataka kujua zaidi kuhusu majukumu maalum au kujitolea kwa muda? Tuko hapa kusaidia! Wasiliana na mratibu wetu wa wajitoleaji na tutakurudishia habari zote unazohitaji.',
+      subtitle: 'Tusaidie hili litimie — muda wako ni wa thamani kwetu, vivyo hivyo ujuzi wako.',
+      description:
+        'Kila mkono unaifanya sherehe ya kuzaliwa iwe na furaha zaidi. Iwe unapenda uratibu, watu, au kuleta tabasamu, tungependa uwe nasi.',
+      supportMessage:
+        'Tusaidie hili litokee. Muda wako ni wenye thamani kubwa kwetu, na ujuzi wako pia.',
+      ctaLabel: 'Wasiliana na Chris kujitolea',
+      ctaLink: 'mailto:chris@chrisdevcode.com?subject=Kujitolea%20-%20Django%20Birthday%20Mombasa',
+      ctaEmail: 'chris@chrisdevcode.com',
     },
     registrationPage: {
       title: 'Jisajili kwa Siku ya Django Mombasa',
@@ -1221,116 +1084,98 @@ export const translations = {
             'Ungana na wasanidi programu, kampuni, na viongozi wa jumuiya.',
         },
       ],
-      passesTitle: 'Aina za Tiketi',
+      passesTitle: 'Kwa Nini Uthibitishe Kuhudhuria?',
       passes: [
         {
-          name: 'Tiketi ya Awali',
-          price: 'KES 2,500',
+          name: 'Thamani ya Kuhudhuria',
           description:
-            'Idadi ndogo. Inajumuisha ufikiaji wa siku nzima na zawadi.',
+            'Hakika utakula keki. Utasikia watu wakiimba “Happy Birthday”. Ni sherehe ya kuzaliwa ya Django yenye laptop.',
         },
         {
-          name: 'Tiketi ya Kawaida',
-          price: 'KES 3,500',
+          name: 'Gharama ya Usajili',
           description:
-            'Ufikiaji wa kawaida kwa vikao vyote, chakula, na hafla za mitandao.',
+            'Bure kabisa. Usajili ni bure — thibitisha tu kama una uhakika asilimia 100 utakuwepo. Keki haiwezi kujila.',
         },
         {
-          name: 'Tiketi ya Mwanafunzi',
-          price: 'KES 1,500',
+          name: 'Hifadhi Nafasi Yako',
           description:
-            'Bei ya punguzo kwa wanafunzi wenye kitambulisho halali.',
+            'Tutumie barua pepe kuthibitisha nafasi yako: chris@chrisdevcode.com (kwa sasa hadi tujue kutumia API).',
         },
       ],
-      stepsTitle: 'Jinsi Usajili Unavyofanya Kazi',
+      stepsTitle: 'Usajili Unafanyikaje?',
       steps: [
-        'Chagua aina ya tiketi inayokufaa zaidi.',
-        'Jaza fomu ya usajili na maelezo yako.',
-        'Pokea barua pepe ya uthibitisho yenye masasisho ya tukio.',
+        'Tutumie barua pepe yenye furaha. Tuambie unakuja na labda ladha ya keki unayopenda.',
+        'Subiri uthibitisho wa kirafiki kwamba jina lako lipo (na keki imehesabiwa).',
+        'Fika ukiwa na njaa, tayari kujifunza, na kuimba “Happy Birthday” kwa nguvu.',
       ],
-      whatsIncludedTitle: 'Kila Tiketi Inajumuisha',
+      whatsIncludedTitle: 'Kila RSVP Inajumuisha',
       whatsIncluded: [
-        'Ufikiaji wa hotuba zote, warsha, na mijadala.',
-        'Kahawa ya asubuhi, chakula cha mchana, na vinywaji vya mchana.',
-        'Zawadi maalum ya Siku ya Django Mombasa.',
-        'Ukumbi wa mitandao na mkutano wa jumuiya baada ya tukio.',
+        'Ufikiaji kamili wa mazungumzo yote, warsha, na mijadala.',
+        'Keki—ile tamu kabisa.',
+        'Kutana na watu bomba wa Django na magwiji wa Python.',
       ],
-      ctaTitle: 'Uko Tayari Kujiunga Nasi?',
+      ctaTitle: 'Tayari Kudai Fungu Lako?',
       ctaDescription:
-        'Tuma maelezo yako na timu yetu itakutumia maelekezo ya malipo.',
-      ctaBtn: 'Tuma Barua Pepe kwa Timu ya Usajili',
-      ctaLink:
-        'mailto:registration@djangoday.mombasa?subject=Usajili%20wa%20Django%20Day%20Mombasa',
+        'Tuma RSVP sasa uhifadhi nafasi yako. Leta nishati, udadisi, na sauti yako bora ya wimbo wa kuzaliwa.',
+      ctaBtn: 'Thibitisha Kupitia Barua Pepe',
+      ctaLink: 'mailto:chris@chrisdevcode.com?subject=RSVP%20-%20Django%20Day%20Mombasa',
       supportTitle: 'Unahitaji Msaada?',
       supportDescription:
-        'Kwa vikundi au maswali, tutumie barua pepe na tutakusaidia.',
-      supportEmail: 'registration@djangoday.mombasa',
+        'Maswali, vikundi, au taarifa za mlo? Tuma barua pepe kwa Chris na tutalitatua — labda tukiwa tunakula keki.',
+      supportEmail: 'chris@chrisdevcode.com',
     },
     codeOfConductPage: {
       title: 'Kanuni za Maadili',
-      subtitle:
-        'Kuunda mazingira salama, ya kujumuisha, na ya kukaribisha kwa kila mtu',
-      commitmentTitle: 'Kujitolea Kwetu',
-      commitmentDescription:
-        'Siku ya Django Mombasa imejitolea kutoa uzoefu usio na unyanyasaji kwa kila mtu, bila kujali jinsia, utambulisho wa kijinsia na kujieleza, umri, mwelekeo wa kimapenzi, ulemavu, muonekano wa kimwili, ukubwa wa mwili, rangi, kabila, dini (au ukosefu wake), au uchaguzi wa teknolojia.',
-      expectedTitle: 'Tabia Inayotarajiwa',
-      expectedBehaviors: [
-        'Kuwa na heshima na kuzingatia katika hotuba na vitendo vyako',
-        'Epuka tabia na hotuba za kudharau, za ubaguzi, au za unyanyasaji',
-        'Kuwa makini na mazingira yako na washiriki wenzako',
-        'Tahadharisha waandaaji wa tukio ikiwa unaona hali hatari au mtu katika dhiki',
-        'Heshimu mipaka na nafasi ya kibinafsi ya wengine',
-        'Shiriki kwa njia halisi na hai kuchangia jumuiya',
+      subtitle: 'Tunafuata Kanuni za Maadili za Django ili kulinda usalama, ujumuishi, na utu wa kila mshiriki.',
+      referenceNote:
+        'Miongozo yetu inategemea Kanuni Rasmi za Maadili za Django. Tafadhali soma maandishi kamili kwa mwongozo zaidi:',
+      referenceLinkLabel: 'https://www.djangoproject.com/conduct/',
+      referenceLinkHref: 'https://www.djangoproject.com/conduct/',
+      introParagraphs: [
+        'Kama jamii pana ya Django, tukio letu linawakaribisha watu wa taaluma, tamaduni, na uzoefu tofauti—wataalamu na wajitoleaji wanaosaidia, kufundisha, na kuunganisha kupitia msimbo na jamii.',
+        'Utofauti ni nguvu yetu, na unatuhitaji tuwasiliane kwa subira na huruma. Miongozo hii ipo kutusaidia kuimarishana na kuhakikisha kila mtu anahisi kukaribishwa.',
+        'Kanuni hizi zinatumika kwa kila nafasi ya Django Birthday Mombasa—katika eneo la tukio, mtandaoni, na popote jumuiya yetu inakutana. Tabia nje ya maeneo haya bado inaweza kuathiri ushiriki wako.',
       ],
-      unacceptableTitle: 'Tabia Isiyokubalika',
-      unacceptableDescription:
-        'Tabia zifuatazo zinachukuliwa kuwa unyanyasaji na hazikubaliki:',
-      unacceptableBehaviors: [
-        'Vurugu, vitisho vya vurugu, au lugha ya vurugu iliyoelekezwa kwa mtu mwingine',
-        'Utani wa kijinsia, wa rangi, wa chuki ya watu wa jinsia moja, wa chuki ya watu wa jinsia tofauti, wa ulemavu, au wa ubaguzi',
-        'Kuchapisha au kuonyesha nyenzo za kingono au za vurugu',
-        'Matukano ya kibinafsi, hasa yale yanayohusiana na sifa zilindwa',
-        'Kupiga picha au kurekodi bila idhini',
-        'Umakini wa kingono usiokubalika au maendeleo',
-        'Kutisha kwa makusudi, kustaliki, au kufuata',
-        'Usumbufu endelevu wa mazungumzo au matukio mengine',
-        'Kutetea au kuhimiza tabia yoyote ya hapo juu',
+      principlesTitle: 'Tunavyotarajia Kuishi',
+      principles: [
+        {
+          title: 'Kuwa mkarimu na mwenye subira.',
+          description:
+            'Kumbuka kuna watu walio katika hatua tofauti za safari yao. Toa msaada kwa moyo wa upole na dhania nia njema.',
+        },
+        {
+          title: 'Kuwa mwenye kukaribisha.',
+          description:
+            'Tunaunga mkono watu wa kila asili, utambulisho, na uzoefu. Hakikisha mwingiliano wako unakaribisha na unafikiwa na wote.',
+        },
+        {
+          title: 'Kuwa mwenye kuzingatia.',
+          description:
+            'Maneno na kazi zako zina athari. Fikiria matokeo, zingatia tofauti za lugha na saa, na ushirikiane kwa uangalifu.',
+        },
+        {
+          title: 'Kuwa mwenye heshima.',
+          description:
+            'Kutoafikiana kunatokea; mashambulizi binafsi hayakubaliki. Dumisha mazungumzo ya kitaaluma hata unapokereka.',
+        },
+        {
+          title: 'Tumia maneno yenye upendo.',
+          description:
+            'Unyanyasaji, utani wa ubaguzi, kuvuja taarifa binafsi, picha za vurugu au za kingono, au mawasiliano ya kulazimisha hayana nafasi hapa.',
+        },
+        {
+          title: 'Tunapotofautiana, tafuta kuelewana.',
+          description:
+            'Mitazamo mbalimbali ndio nguvu ya Django. Lenga kutatua changamoto na kujifunza—si kulaumu wala kudhalilisha.',
+        },
       ],
-      scopeTitle: 'Upeo',
-      scopeDescription:
-        'Kanuni hizi za Maadili zinatumika kwa nafasi zote za Siku ya Django Mombasa, ikijumuisha:',
-      scopeItems: [
-        'Mahali pa tukio na shughuli zote zinazohusiana na tukio',
-        'Majukwaa ya mtandaoni ya tukio na njia za mawasiliano',
-        'Mwingiliano wa mitandao ya kijamii unaohusiana na tukio',
-        'Mikutano ya kijamii inayohusiana na tukio na sherehe za baadaye',
-      ],
-      consequencesTitle: 'Matokeo ya Tabia Isiyokubalika',
-      consequencesDescription:
-        'Tabia isiyokubalika haitavumiliwa. Mtu yeyote anayeombwa kuacha tabia isiyokubalika anatarajiwa kutii mara moja. Ikiwa mshiriki anashiriki katika tabia isiyokubalika, waandaaji wa tukio wanaweza kuchukua hatua yoyote wanayoiona inafaa, ikijumuisha:',
-      consequencesItems: [
-        'Kuonya mkosaji',
-        'Kufukuzwa kutoka kwa tukio bila kurudishiwa pesa',
-        'Kuzuiwa kutoka matukio ya baadaye',
-        'Kuripoti kwa mamlaka za sheria ikiwa inafaa',
-      ],
-      reportingTitle: 'Miongozo ya Kuripoti',
+      reportingTitle: 'Unahitaji Kuripoti Jambo?',
       reportingDescription:
-        'Ikiwa unakabiliwa na au kushuhudia tabia isiyokubalika, au una wasiwasi wowote, tafadhali tahadharisha mwandaaji wa tukio haraka iwezekanavyo.',
-      reportingDuring:
-        "Wakati wa tukio: Tafuta wafanyakazi wanaovaa beji za 'Mwandaaji' au tembelea dawati la usajili",
-      reportingEmail:
-        'Barua pepe: conduct@djangoday.mombasa (inafuatiliwa kabla, wakati, na baada ya tukio)',
-      reportingEmergency:
-        'Dharura: Wasiliana na mamlaka za ndani kwa 999 au 112',
+        'Ukishuhudia au ukipitia tabia inayokiuka kanuni hizi, tafadhali wasiliana nasi mara moja. Ripoti hushughulikiwa kwa usiri.',
+      reportingEmailLabel: 'Wasiliana na waandaaji:',
+      reportingEmail: 'chris@chrisdevcode.com',
       reportingNote:
-        'Ripoti zote zitashughulikiwa kwa busara na usiri. Tutachukua ripoti zote kwa uzito na kuchunguza haraka.',
-      grievancesTitle: 'Kushughulikia Malalamiko',
-      grievancesDescription:
-        'Ikiwa unahisi umekuwa umeshtakiwa kwa uwongo au kwa udhalimu wa kukiuka Kanuni hizi za Maadili, unapaswa kutahadharisha waandaaji wa tukio na maelezo mafupi ya malalamiko yako. Malalamiko yako yatashughulikiwa kulingana na sera zetu zilizopo.',
-      licenseTitle: 'Leseni na Utambuzi',
-      licenseDescription:
-        'Kanuni hizi za Maadili zimebadilishwa kutoka kwa Kanuni za Maadili za Django na Kanuni za Maadili za Raia, zinazosambazwa chini ya leseni ya Creative Commons Attribution-ShareAlike. Tunashukuru Django Software Foundation na jumuiya zingine kwa kazi zao katika kuunda nafasi za matukio ya kujumuisha.',
+        'Ikiwa kuna hatari ya haraka, piga simu kwa huduma za dharura za eneo kwanza. Asante kwa kutusaidia kulifanya tukio hili liwe la kukaribisha kwa wote.',
     },
   },
 }

@@ -3,14 +3,14 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { Sparkles, Code, Users, Ticket, BadgeCheck, GraduationCap, Mail } from "lucide-react"
+import { Sparkles, Code, Users, Cake, BadgeCheck, Mail } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export default function RegistrationPage() {
   const { t } = useLanguage()
 
   const highlightIcons = [Sparkles, Code, Users] as const
-  const passIcons = [Ticket, BadgeCheck, GraduationCap] as const
+  const passIcons = [Cake, BadgeCheck, Mail] as const
 
   return (
     <>
@@ -45,14 +45,13 @@ export default function RegistrationPage() {
               <h2 className="text-3xl font-bold text-center">{t.registrationPage.passesTitle}</h2>
               <div className="grid md:grid-cols-3 gap-6">
                 {t.registrationPage.passes.map(
-                  (pass: { name: string; price: string; description: string }, index: number) => {
-                    const Icon = passIcons[index] ?? Ticket
+                  (pass: { name: string; description: string }, index: number) => {
+                    const Icon = passIcons[index] ?? Cake
                     return (
                       <div key={pass.name} className="bg-card rounded-2xl p-6 border border-border space-y-4 text-center">
                         <Icon className="h-10 w-10 mx-auto text-primary" />
                         <div className="space-y-1">
                           <h3 className="text-2xl font-bold">{pass.name}</h3>
-                          <p className="text-3xl font-bold text-primary">{pass.price}</p>
                         </div>
                         <p className="text-muted-foreground leading-relaxed">{pass.description}</p>
                       </div>

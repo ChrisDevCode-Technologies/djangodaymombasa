@@ -55,15 +55,20 @@ export function Navbar() {
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl">
       <div
         className={cn(
-          "backdrop-blur-lg rounded-2xl shadow-lg px-6 py-4 border-2 transition-colors",
-          isHomePage ? "bg-primary/80 border-primary-foreground/20" : "bg-card/80 border-border dark:border-primary/30",
+          "backdrop-blur-xl rounded-2xl shadow-lg px-6 py-4 border transition-colors duration-200",
+          isHomePage
+            ? "bg-primary/75 border-primary-foreground/20 dark:bg-background/75 dark:border-foreground/25"
+            : "bg-card/90 border-border/80 dark:bg-background/80 dark:border-foreground/25",
         )}
       >
         <div className="flex items-center justify-between">
           <Link
             href="/"
             onClick={handleNavClick}
-            className={cn("text-xl font-bold", isHomePage ? "text-primary-foreground" : "text-primary")}
+            className={cn(
+              "text-xl font-bold transition-colors",
+              isHomePage ? "text-primary-foreground dark:text-foreground" : "text-primary dark:text-foreground",
+            )}
           >
             Django Day Mombasa
           </Link>
@@ -80,10 +85,10 @@ export function Navbar() {
                   pathname === link.href
                     ? isHomePage
                       ? "text-secondary"
-                      : "text-secondary dark:text-secondary"
+                      : "text-secondary dark:text-primary"
                     : isHomePage
                       ? "text-primary-foreground/80"
-                      : "text-foreground/70 dark:text-foreground/80",
+                      : "text-foreground/80 dark:text-foreground",
                 )}
               >
                 {link.label}
@@ -99,7 +104,7 @@ export function Navbar() {
                     "rounded-full gap-1",
                     isHomePage
                       ? "text-primary-foreground/80 hover:text-secondary"
-                      : "text-foreground/70 dark:text-foreground/80 hover:text-secondary",
+                      : "text-foreground/80 dark:text-foreground hover:text-secondary",
                   )}
                 >
                   <MoreHorizontal className="h-4 w-4" />
@@ -123,15 +128,15 @@ export function Navbar() {
                   variant="ghost"
                   size="icon"
                   className={cn(
-                    "rounded-full",
-                    isHomePage
-                      ? "text-primary-foreground hover:text-secondary"
-                      : "text-foreground hover:text-secondary",
-                  )}
-                >
-                  <Languages className="h-5 w-5" />
-                </Button>
-              </DropdownMenuTrigger>
+                "rounded-full",
+                isHomePage
+                  ? "text-primary-foreground hover:text-secondary"
+                  : "text-foreground hover:text-secondary dark:text-foreground",
+              )}
+            >
+              <Languages className="h-5 w-5" />
+            </Button>
+          </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 <DropdownMenuItem onClick={() => setLanguage("en")} className={language === "en" ? "bg-accent" : ""}>
                   English
@@ -162,15 +167,15 @@ export function Navbar() {
                   variant="ghost"
                   size="icon"
                   className={cn(
-                    "rounded-full",
-                    isHomePage
-                      ? "text-primary-foreground hover:text-secondary"
-                      : "text-foreground hover:text-secondary",
-                  )}
-                >
-                  <Languages className="h-5 w-5" />
-                </Button>
-              </DropdownMenuTrigger>
+                "rounded-full",
+                isHomePage
+                  ? "text-primary-foreground hover:text-secondary"
+                  : "text-foreground hover:text-secondary dark:text-foreground",
+              )}
+            >
+              <Languages className="h-5 w-5" />
+            </Button>
+          </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 <DropdownMenuItem onClick={() => setLanguage("en")} className={language === "en" ? "bg-accent" : ""}>
                   English
@@ -217,7 +222,7 @@ export function Navbar() {
                   "block px-4 py-2 rounded-lg text-sm font-medium transition-colors",
                   pathname === link.href
                     ? "bg-primary text-primary-foreground"
-                    : "text-foreground/80 hover:bg-muted hover:text-foreground",
+                    : "text-foreground/80 dark:text-foreground hover:bg-muted hover:text-foreground dark:hover:text-primary-foreground",
                 )}
               >
                 {link.label}

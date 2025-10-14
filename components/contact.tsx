@@ -3,8 +3,12 @@
 import { Button } from "@/components/ui/button"
 import { Mail, Phone, Users } from "lucide-react"
 import { ScrollReveal } from "@/components/scroll-reveal"
+import { useLanguage } from "@/contexts/language-context"
 
 export function Contact() {
+  const { t } = useLanguage()
+  const contact = t.contact
+
   return (
     <section className="py-20 md:py-32 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -12,9 +16,9 @@ export function Contact() {
           <ScrollReveal>
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12 space-y-8">
               <div className="text-center space-y-4">
-                <h2 className="text-4xl md:text-5xl font-bold text-balance">Get Involved</h2>
-                <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-                  Be part of the story — where community meets code, and innovation meets opportunity
+                <h2 className="text-4xl md:text-5xl font-bold text-balance">{contact.title}</h2>
+                <p className="text-xl text-foreground/80 dark:text-foreground leading-relaxed text-pretty">
+                  {contact.description}
                 </p>
               </div>
 
@@ -26,8 +30,8 @@ export function Contact() {
                         <Users className="h-5 w-5 text-primary" />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">Event Lead</p>
-                        <p className="font-semibold">Chris Achinga</p>
+                        <p className="text-sm text-foreground/70 dark:text-foreground/85">{contact.eventLeadLabel}</p>
+                        <p className="font-semibold text-foreground">{contact.eventLeadName}</p>
                       </div>
                     </div>
                   </div>
@@ -40,12 +44,12 @@ export function Contact() {
                         <Mail className="h-5 w-5 text-primary" />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">Email</p>
+                        <p className="text-sm text-foreground/70 dark:text-foreground/85">{contact.emailLabel}</p>
                         <a
-                          href="mailto:chris@chrisdevcode.com"
-                          className="font-semibold hover:text-primary transition-colors"
+                          href={`mailto:${contact.emailAddress}`}
+                          className="font-semibold text-foreground hover:text-primary transition-colors"
                         >
-                          chris@chrisdevcode.com
+                          {contact.emailAddress}
                         </a>
                       </div>
                     </div>
@@ -59,9 +63,12 @@ export function Contact() {
                         <Phone className="h-5 w-5 text-primary" />
                       </div>
                       <div>
-                        <p className="text-sm text-muted-foreground">Phone</p>
-                        <a href="tel:+254740428522" className="font-semibold hover:text-primary transition-colors">
-                          +254 740 428 522
+                        <p className="text-sm text-foreground/70 dark:text-foreground/85">{contact.phoneLabel}</p>
+                        <a
+                          href={`tel:${contact.phoneNumber.replace(/\s+/g, "")}`}
+                          className="font-semibold text-foreground hover:text-primary transition-colors"
+                        >
+                          {contact.phoneNumber}
                         </a>
                       </div>
                     </div>
@@ -72,10 +79,10 @@ export function Contact() {
               <ScrollReveal delay={250}>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
                   <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto">
-                    Register to Attend
+                    {contact.registerCta}
                   </Button>
                   <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
-                    Submit a Talk Proposal
+                    {contact.submitTalkCta}
                   </Button>
                 </div>
               </ScrollReveal>

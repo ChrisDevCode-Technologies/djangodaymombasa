@@ -2,122 +2,68 @@
 
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
-import { Shield, Heart, Users, AlertCircle } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export default function CodeOfConductPage() {
   const { t } = useLanguage()
+  const page = t.codeOfConductPage
+  const introParagraphs = Array.isArray(page.introParagraphs) ? page.introParagraphs : []
+  const principles = Array.isArray(page.principles) ? page.principles : []
 
   return (
     <>
       <Navbar />
       <main className="min-h-screen pt-24">
         <div className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto space-y-12">
+          <div className="max-w-4xl mx-auto space-y-10">
             <div className="text-center space-y-4">
-              <Shield className="h-16 w-16 text-primary mx-auto" />
-              <h1 className="text-5xl font-bold text-balance">{t.codeOfConductPage.title}</h1>
-              <p className="text-xl text-muted-foreground text-balance">{t.codeOfConductPage.subtitle}</p>
+              <h1 className="text-5xl font-bold text-balance">{page.title}</h1>
+              <p className="text-xl text-muted-foreground text-balance">{page.subtitle}</p>
             </div>
 
-            <section className="bg-primary text-primary-foreground rounded-2xl p-8 space-y-4">
-              <h2 className="text-3xl font-bold">{t.codeOfConductPage.commitmentTitle}</h2>
-              <p className="text-primary-foreground/90 leading-relaxed">{t.codeOfConductPage.commitmentDescription}</p>
-            </section>
-
-            <section className="bg-card rounded-2xl p-8 border border-border space-y-6">
-              <div className="flex items-start gap-4">
-                <Heart className="h-8 w-8 text-primary shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-2xl font-bold mb-3">{t.codeOfConductPage.expectedTitle}</h2>
-                  <ul className="space-y-3 text-muted-foreground">
-                    {t.codeOfConductPage.expectedBehaviors.map((behavior) => (
-                      <li key={behavior} className="flex items-start gap-3">
-                        <span className="text-primary font-bold">•</span>
-                        <span>{behavior}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            <section className="bg-card rounded-2xl p-8 border border-border space-y-6">
-              <div className="flex items-start gap-4">
-                <AlertCircle className="h-8 w-8 text-destructive shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-2xl font-bold mb-3">{t.codeOfConductPage.unacceptableTitle}</h2>
-                  <p className="text-muted-foreground mb-4">{t.codeOfConductPage.unacceptableDescription}</p>
-                  <ul className="space-y-3 text-muted-foreground">
-                    {t.codeOfConductPage.unacceptableBehaviors.map((behavior) => (
-                      <li key={behavior} className="flex items-start gap-3">
-                        <span className="text-destructive font-bold">•</span>
-                        <span>{behavior}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            <section className="bg-card rounded-2xl p-8 border border-border space-y-6">
-              <div className="flex items-start gap-4">
-                <Users className="h-8 w-8 text-primary shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-2xl font-bold mb-3">{t.codeOfConductPage.scopeTitle}</h2>
-                  <p className="text-muted-foreground leading-relaxed mb-4">{t.codeOfConductPage.scopeDescription}</p>
-                  <ul className="space-y-2 text-muted-foreground">
-                    {t.codeOfConductPage.scopeItems.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <span className="text-primary font-bold">•</span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </section>
-
             <section className="bg-card rounded-2xl p-8 border border-border space-y-4">
-              <h2 className="text-2xl font-bold">{t.codeOfConductPage.consequencesTitle}</h2>
-              <p className="text-muted-foreground leading-relaxed">{t.codeOfConductPage.consequencesDescription}</p>
-              <ul className="space-y-2 text-muted-foreground">
-                {t.codeOfConductPage.consequencesItems.map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <span className="text-primary font-bold">•</span>
-                    <span>{item}</span>
-                  </li>
+              <p className="text-muted-foreground leading-relaxed">{page.referenceNote}</p>
+              <a
+                href={page.referenceLinkHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-semibold underline underline-offset-4"
+              >
+                {page.referenceLinkLabel}
+              </a>
+            </section>
+
+            <section className="space-y-4">
+              {introParagraphs.map((paragraph) => (
+                <p key={paragraph} className="text-foreground/80 leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </section>
+
+            <section className="bg-card rounded-2xl p-8 border border-border space-y-6">
+              <h2 className="text-3xl font-bold text-center">{page.principlesTitle}</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {principles.map((principle: { title: string; description: string }) => (
+                  <div key={principle.title} className="space-y-2 text-left bg-muted/30 rounded-xl p-5">
+                    <h3 className="text-xl font-semibold text-primary">{principle.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{principle.description}</p>
+                  </div>
                 ))}
-              </ul>
-            </section>
-
-            <section className="bg-primary text-primary-foreground rounded-2xl p-8 space-y-4">
-              <h2 className="text-2xl font-bold">{t.codeOfConductPage.reportingTitle}</h2>
-              <p className="text-primary-foreground/90 leading-relaxed mb-4">
-                {t.codeOfConductPage.reportingDescription}
-              </p>
-              <div className="space-y-3 text-primary-foreground/90">
-                <p>
-                  <strong>{t.codeOfConductPage.reportingDuring}</strong>
-                </p>
-                <p>
-                  <strong>{t.codeOfConductPage.reportingEmail}</strong>
-                </p>
-                <p>
-                  <strong>{t.codeOfConductPage.reportingEmergency}</strong>
-                </p>
               </div>
-              <p className="text-primary-foreground/90 leading-relaxed mt-4">{t.codeOfConductPage.reportingNote}</p>
             </section>
 
-            <section className="bg-card rounded-2xl p-8 border border-border">
-              <h2 className="text-2xl font-bold mb-4">{t.codeOfConductPage.grievancesTitle}</h2>
-              <p className="text-muted-foreground leading-relaxed">{t.codeOfConductPage.grievancesDescription}</p>
-            </section>
-
-            <section className="bg-card rounded-2xl p-8 border border-border">
-              <h2 className="text-2xl font-bold mb-4">{t.codeOfConductPage.licenseTitle}</h2>
-              <p className="text-muted-foreground leading-relaxed">{t.codeOfConductPage.licenseDescription}</p>
+            <section className="bg-primary text-primary-foreground rounded-2xl p-8 space-y-4 text-center">
+              <h2 className="text-2xl font-bold">{page.reportingTitle}</h2>
+              <p className="text-primary-foreground/90 leading-relaxed">{page.reportingDescription}</p>
+              <div className="space-y-2 font-semibold">
+                <span>{page.reportingEmailLabel}</span>
+                <br />
+                <a href={`mailto:${page.reportingEmail}`} className="underline underline-offset-4">
+                  {page.reportingEmail}
+                </a>
+              </div>
+              <p className="text-primary-foreground/80 leading-relaxed">{page.reportingNote}</p>
             </section>
           </div>
         </div>
