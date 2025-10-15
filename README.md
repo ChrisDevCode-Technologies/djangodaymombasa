@@ -27,7 +27,7 @@ Celebrating 20 years of Django with the Mombasa community. This site provides ev
 
 - **Bilingual experience** — English and Kiswahili translations for every page.
 - **Sponsor outreach** — Updated messaging for impact-focused sponsorship and direct email CTA.
-- **Registration & RSVP flow** — Humorous, clear instructions for securing a spot via email.
+- **Registration & RSVP flow** — Humorous, clear instructions for securing a spot via the Luma RSVP link.
 - **Speaker guidance** — Local-first call for speakers with topics, timelines, and expectations.
 - **Volunteer call-to-action** — Concise pitch and direct email contact for helpers.
 - **Responsive design** — Optimized for mobile and dark mode readability.

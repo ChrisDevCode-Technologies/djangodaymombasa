@@ -495,19 +495,19 @@ export const translations = {
         {
           name: 'Registration Cost',
           description:
-            'Zero shillings. Registration is free — just RSVP if you are 100% sure you’ll show up. The cake can’t eat itself.',
+            'Zero shillings. Registration is free — just RSVP on Luma if you are 100% sure you’ll show up. The cake can’t eat itself.',
         },
         {
           name: 'Lock Your Spot',
           description:
-            'Email us to RSVP your seat: chris@chrisdevcode.com (for now, until we figure out how APIs work).',
+            'Grab your seat through our Luma page: https://luma.com/fj9gb0ii — no secret handshake required.',
         },
       ],
       stepsTitle: 'How Registration Works',
       steps: [
-        'Send us a cheerful RSVP email. Tell us you’re coming and maybe your preferred cake vibe.',
-        'Wait for a friendly confirmation that your name is on the list (and the cake count).',
-        'Show up hungry, ready to learn, and prepared to sing “Happy Birthday” like you mean it.',
+        'Hit the Luma RSVP link and drop in your details (yes, it works on mobile).',
+        'Check your inbox for the Luma confirmation — that’s your golden ticket.',
+        'Show up hungry, ready to learn, and prepared to sing “Happy Birthday” like you mean it (with your confirmation handy).',
       ],
       whatsIncludedTitle: 'Every RSVP Includes',
       whatsIncluded: [
@@ -517,9 +517,9 @@ export const translations = {
       ],
       ctaTitle: 'Ready to Claim Your Slice?',
       ctaDescription:
-        'Fire off an RSVP email to secure your spot. Bring your energy, your curiosity, and your best birthday choir voice.',
-      ctaBtn: 'RSVP via Email',
-      ctaLink: 'mailto:chris@chrisdevcode.com?subject=RSVP%20-%20Django%20Day%20Mombasa',
+        'RSVP on Luma to secure your spot. Bring your energy, your curiosity, and your best birthday choir voice.',
+      ctaBtn: 'RSVP on Luma',
+      ctaLink: 'https://luma.com/fj9gb0ii',
       supportTitle: 'Need Help?',
       supportDescription:
         'Questions, groups, or dietary intel? Email Chris and we’ll figure it out — probably with cake in hand.',
@@ -1094,19 +1094,19 @@ export const translations = {
         {
           name: 'Gharama ya Usajili',
           description:
-            'Bure kabisa. Usajili ni bure — thibitisha tu kama una uhakika asilimia 100 utakuwepo. Keki haiwezi kujila.',
+            'Bure kabisa. Usajili ni bure — thibitisha kwenye Luma kama una uhakika asilimia 100 utakuwepo. Keki haiwezi kujila.',
         },
         {
           name: 'Hifadhi Nafasi Yako',
           description:
-            'Tutumie barua pepe kuthibitisha nafasi yako: chris@chrisdevcode.com (kwa sasa hadi tujue kutumia API).',
+            'Hifadhi nafasi yako kupitia ukurasa wetu wa Luma: https://luma.com/fj9gb0ii — hakuna usanii wa ziada.',
         },
       ],
       stepsTitle: 'Usajili Unafanyikaje?',
       steps: [
-        'Tutumie barua pepe yenye furaha. Tuambie unakuja na labda ladha ya keki unayopenda.',
-        'Subiri uthibitisho wa kirafiki kwamba jina lako lipo (na keki imehesabiwa).',
-        'Fika ukiwa na njaa, tayari kujifunza, na kuimba “Happy Birthday” kwa nguvu.',
+        'Bonyeza kiunga cha RSVP cha Luma na ujaze maelezo yako (ndiyo, simu inatosha).',
+        'Angalia barua pepe ya uthibitisho kutoka Luma — hiyo ndiyo tiketi yako ya dhahabu.',
+        'Fika ukiwa na njaa, tayari kujifunza, na kuimba “Happy Birthday” kwa nguvu (ukiwa na uthibitisho wako).',
       ],
       whatsIncludedTitle: 'Kila RSVP Inajumuisha',
       whatsIncluded: [
@@ -1116,9 +1116,9 @@ export const translations = {
       ],
       ctaTitle: 'Tayari Kudai Fungu Lako?',
       ctaDescription:
-        'Tuma RSVP sasa uhifadhi nafasi yako. Leta nishati, udadisi, na sauti yako bora ya wimbo wa kuzaliwa.',
-      ctaBtn: 'Thibitisha Kupitia Barua Pepe',
-      ctaLink: 'mailto:chris@chrisdevcode.com?subject=RSVP%20-%20Django%20Day%20Mombasa',
+        'Thibitisha kwenye Luma sasa uhifadhi nafasi yako. Leta nishati, udadisi, na sauti yako bora ya wimbo wa kuzaliwa.',
+      ctaBtn: 'RSVP kwenye Luma',
+      ctaLink: 'https://luma.com/fj9gb0ii',
       supportTitle: 'Unahitaji Msaada?',
       supportDescription:
         'Maswali, vikundi, au taarifa za mlo? Tuma barua pepe kwa Chris na tutalitatua — labda tukiwa tunakula keki.',
